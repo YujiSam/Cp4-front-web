@@ -11,13 +11,13 @@ const GlobalStyle = createGlobalStyle `
 }
 
 body{
-    background-color: #292929; 
-    margin: 0; 
-    padding: 0; 
+    background-color:#292929; 
+    margin:0; 
+    padding:0; 
 }
 
 html{
-    scroll-behavior:smooth;
+    scroll-behavior:smooth; /* Ativa o scroll suave ao navegar pela página */
 }
 
 `

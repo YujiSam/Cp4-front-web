@@ -4,18 +4,18 @@ const Produtos=()=>{
 
     return (
         <>
-        <ProdutosStyle>
-         <section className="divisor">
-            <h1>Tênis de Corrida</h1>
+        <ProdutosStyle> {/* Aplica os estilos CSS personalizados */}
+         <section className="divisor"> {/* Seção para dividir os blocos de categorias de produtos */}
+            <h1>Tênis de Corrida</h1> {/* Título da categoria */}
         </section>
-            <div className="card-container">
-                <div className="card">
-                <img src="src/assets/tenis.jpg" alt="imagem" />
-                    <div className="info">
-                        <h2>Tênis Adidas</h2>
-                        <h1>Preço: $325,00</h1>
-                        <h3>R$ 312,00 à vista com desconto via PIX</h3>
-                        <button>Comprar</button>
+            <div className="card-container"> {/* Contêiner para os cards de produtos */}
+                <div className="card"> {/* Cada card de produto */}
+                <img src="src/assets/tenis.jpg" alt="imagem" /> {/* Imagem do produto */}
+                    <div className="info"> {/* Informações do produto */}
+                        <h2>Tênis Adidas</h2> {/* Nome do produto */}
+                        <h1>Preço: $325,00</h1> {/* Preço principal do produto */}
+                        <h3>R$ 312,00 à vista com desconto via PIX</h3> {/* Preço com desconto */}
+                        <button>Comprar</button> {/* Botão de compra */}
                     </div>
                 </div>
                 <div className="card">
