@@ -2,7 +2,7 @@ const Error=()=>{
     
     return (
         <>
-        <h1>Pagina Não Encontrada!!!</h1>
+        <h1>Oops! Está Página Não Pode Ser Encontrada!!!</h1>
         </>
     )
 }

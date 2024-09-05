@@ -8,6 +8,7 @@ const Nav=()=>{
         <NavStyle>
         <header className="nav">
             <div className="container">
+                <img src="src/assets/icon.png" alt="icon" className="icon"/>
                 <h1>MINOTAURO</h1>
                 <h2>EQUIPAMENTOS DE PRIMEIRA LINHA</h2>
                 <ul>
