@@ -8,4 +8,20 @@ export const ContatoStyle = styled.header `
     text-align: left;
 }
 
+input{
+    background-color: black; 
+    color: white; 
+    padding: 10px 30px; 
+    border: none;
+    font-weight: bold; 
+}
+
+button{
+    background-color: black; 
+    color: white; 
+    padding: 10px 30px; 
+    border: none;
+    font-weight: bold; 
+}
+
 `
