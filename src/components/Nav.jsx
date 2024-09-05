@@ -14,6 +14,9 @@ const Nav=()=>{
                     <Link to="/" className="navLink">Home</Link>
                     <Link to="/sobre" className="navLink">Sobre</Link>
                     <Link to="/produtos" className="navLink">Produtos</Link>
+                    <div className="cart-background">
+                        <img src="src/assets/compra.jpg" alt="Carrinho de Compras" className="cart-icon"/>
+                    </div>
                 </ul>
             </div>     
         </header>

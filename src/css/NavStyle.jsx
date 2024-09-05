@@ -35,15 +35,13 @@ ul {
     list-style: none;
     display: flex;
     gap: 20px;
-    margin: 0;
-    padding: 0;
 }
 
 .navLink {
     text-decoration: none;
     font-size: 1rem;
     color: #f5f5f5;
-    padding: 10px 15px;
+    padding: 20px 15px;
     border-radius: 5px;
     transition: background 0.3s, color 0.3s;
 }
@@ -53,4 +51,27 @@ ul {
     color: #fff;
     box-shadow: 0 4px 8px rgba(255, 69, 0, 0.5);
 }
+
+.cart-background {
+    background-color: #ff4500;
+    border-radius: 8px;
+    height: 50px;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.3s ease;
+    cursor: pointer; 
+}
+
+.cart-icon {
+    width: 30px; 
+    height: 30px; 
+}
+
+.cart-background:hover {
+    transform: scale(1.05);
+}
+
 `
