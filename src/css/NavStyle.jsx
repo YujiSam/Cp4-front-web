@@ -29,7 +29,6 @@ h2 {
     font-size: 1.2rem;
     font-weight: 300;
     color: #ddd;
-    margin: 0;
 }
 
 ul {
